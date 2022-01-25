@@ -95,3 +95,15 @@ df = pd.read_csv('pokemon_data.txt' , delimiter='\t')
 #     result = df.groupby(['Type 1']).coint()
 
 #     new_df = pd.concat([new_df, result])
+
+
+
+
+
+
+##############----- ATTENTION -----##############
+####INDEXES
+# df.index -->для добавления индекса в качестве нового столбца
+# reset_index  с  rename_axis -->для переименования имени текущего столбца индекса
+# метод set_index -->для преобразования столбца в индекс
+# MultiIndex -->установить несколько слоев indexes на колонку
