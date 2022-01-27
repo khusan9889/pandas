@@ -101,6 +101,7 @@ df = pd.read_csv('pokemon_data.txt' , delimiter='\t')
 
 
 
+
 ##############----- ATTENTION -----##############
 ####INDEXES
 # df.index -->для добавления индекса в качестве нового столбца
